@@ -7,3 +7,5 @@ The program applies three popular filters: blur, edge detection, and sharpening.
 For color images, the RGB channels are processed independently and then recombined, ensuring accurate color representation. This channel-wise processing improves filter effectiveness and maintains visual consistency.
 
 This project is useful for learning image processing fundamentals, preprocessing data for AI models, and understanding how convolution works internally, making it suitable for educational and practical computer vision applications.
+
+output:-![Uploading Screenshot (98).png…]()
