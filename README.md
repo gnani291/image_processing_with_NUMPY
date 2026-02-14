@@ -8,4 +8,3 @@ For color images, the RGB channels are processed independently and then recombin
 
 This project is useful for learning image processing fundamentals, preprocessing data for AI models, and understanding how convolution works internally, making it suitable for educational and practical computer vision applications.
 
-output:-![Uploading Screenshot (98).png…]()
