@@ -9,7 +9,6 @@ img = Image.open(filename)
 
 img = np.array(img)
 
-# Step 2: Convolution function
 def convolve(image, kernel):
     kh, kw = kernel.shape
     h, w = image.shape
@@ -75,6 +74,7 @@ plt.title("Sharpened")
 plt.imshow(np.clip(sharpened, 0, 255).astype(np.uint8))
 
 plt.show()
+
 
 
 
