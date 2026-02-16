@@ -1,4 +1,3 @@
-# 📌 NumPy Image Processing in Colab (Color Version)
 from google.colab import files
 from PIL import Image
 import numpy as np
@@ -78,5 +77,6 @@ plt.title("Sharpened")
 plt.imshow(np.clip(sharpened, 0, 255).astype(np.uint8))
 
 plt.show()
+
 
 
