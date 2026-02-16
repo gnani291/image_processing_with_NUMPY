@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 
-uploaded = files.upload()  # 👈 Pick an image from your device
+uploaded = files.upload() 
 filename = list(uploaded.keys())[0]
 img = Image.open(filename)
 
@@ -76,6 +76,7 @@ plt.title("Sharpened")
 plt.imshow(np.clip(sharpened, 0, 255).astype(np.uint8))
 
 plt.show()
+
 
 
 
