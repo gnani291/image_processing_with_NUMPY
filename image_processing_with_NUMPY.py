@@ -7,7 +7,6 @@ uploaded = files.upload()
 filename = list(uploaded.keys())[0]
 img = Image.open(filename)
 
-# Convert to NumPy array (keep RGB)
 img = np.array(img)
 
 # Step 2: Convolution function
@@ -76,6 +75,7 @@ plt.title("Sharpened")
 plt.imshow(np.clip(sharpened, 0, 255).astype(np.uint8))
 
 plt.show()
+
 
 
 
