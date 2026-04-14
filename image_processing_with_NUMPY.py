@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 uploaded = files.upload() 
 filename = list(uploaded.keys())[0]
 img = Image.open(filename)
-
 img = np.array(img)
 
 def convolve(image, kernel):
