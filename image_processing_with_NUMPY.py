@@ -8,6 +8,7 @@ filename = list(uploaded.keys())[0]
 img = Image.open(filename)
 img = np.array(img)
 
+
 def convolve(image, kernel):
     kh, kw = kernel.shape
     h, w = image.shape
