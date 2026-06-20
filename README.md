@@ -3,6 +3,7 @@ This project demonstrates fundamental image processing operations using NumPy by
 
 A custom convolution function is implemented to slide filter kernels over the image. Convolution is a core technique in computer vision used to extract features, enhance details, and modify image characteristics.
 
+
 The program applies three popular filters: blur, edge detection, and sharpening. Blur smooths the image and reduces noise, edge detection highlights object boundaries, and sharpening improves image clarity and detail.
 
 For color images, the RGB channels are processed independently and then recombined, ensuring accurate color representation. This channel-wise processing improves filter effectiveness and maintains visual consistency.
