@@ -21,6 +21,7 @@ def convolve(image, kernel):
             result[i, j] = np.sum(region * kernel)
     return result
 
+
 # Step 3: Define filters
 blur_kernel = np.ones((3,3)) / 9.0   # blur
 edge_kernel = np.array([[-1, -1, -1],
